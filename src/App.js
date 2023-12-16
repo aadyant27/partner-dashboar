@@ -14,7 +14,7 @@ import HomePage from "./pages/Home/HomePage";
 import Renewals from "./pages/Renewals/Renewals";
 import BusinessReport from "./pages/BusinessReport/BusinessReport";
 import MyProfile from "./pages/MyProfile/MyProfile";
-import Logo from "../src/assets/logo.png";
+// import Logo from "../src/assets/logo.png";
 import { slide as Menu } from "react-burger-menu";
 
 function App() {
@@ -41,21 +41,21 @@ function App() {
     //     console.log(data, "homee");
 
     const data = {
-      name: "Husaini Aamer",
-      referral_code: "PNQ1G9",
+      name: "Husaini Aamir",
+      referral_code: "BAQ1G9",
       manager: "Sudeepti Tripathy",
-      manager_phone: "7735789855",
-      manager_email: "sudeeptitripathy@vyaparapp.in",
+      manager_phone: "9336234586",
+      manager_email: "sudeepti@gmail.in",
       desktop_licenses: 2,
       renewals: 7,
       demo_scheduled: 0,
       total_commission: 4490.09,
       commision_to_be_paid: 2200,
       commission: [
-        4712.32, 2823.54, 15396.71, 11377.8, 7722.62, 16818.86, 8863.4, 7564.92,
-        6537.16, 6765.21, 13258.31, 9800,
+        5615.32, 8676.54, 15396.71, 12000.8, 10000.62, 9000.86, 8863.4, 7564.92,
+        6537.16, 6765.21, 13258.31, 2499,
       ],
-      license: [3, 1, 13, 12, 6, 9, 6, 4, 3, 3, 11, 8],
+      license: [3, 1, 19, 16, 6, 9, 6, 4, 5, 3, 11, 7],
       partner_type: "basic",
     };
     const { referral_code, manager, manager_phone, manager_email } = data;
@@ -215,7 +215,7 @@ export default App;
 function ResponsiveHeader() {
   return (
     <div className="responsive-header">
-      <img src={Logo} alt="Vyapar Logo" />
+      {/* <img src={Logo} alt="Vyapar Logo" /> */}
     </div>
   );
 }

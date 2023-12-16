@@ -13,12 +13,12 @@ export default function MyProfile() {
     //   });
     const obj = [
       {
-        referral_code: "PNQ1G9",
+        referral_code: "BAQ1G9",
         partner_type: "key",
-        account_holder_name: "Husaini Aamer Shahensha",
-        account_number: "50100218323100",
-        ifsc_code: "HDFC0002502",
-        pan_no: "AFDPH2157M",
+        account_holder_name: "Husaini Aamir",
+        account_number: "501994003323100",
+        ifsc_code: "HDFC0008641",
+        pan_no: "AFDPH8117M",
         gstin: "Not Provided",
       },
     ];

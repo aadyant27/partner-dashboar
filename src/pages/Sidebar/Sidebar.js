@@ -2,7 +2,7 @@
 import copy from "copy-to-clipboard";
 import { NavLink } from "react-router-dom";
 // Asset Files
-import Logo from "../../assets/logo.png";
+// import Logo from "../../assets/logo.png";
 import CopyIcon from "../../assets/copy-icon.png";
 import MailIcon from "../../assets/mail.png";
 import WhatsappIcon from "../../assets/whatsapp.png";
@@ -12,7 +12,7 @@ export default function Sidebar({ sideBarData }) {
     <div className="sidebar">
       <div className="sidebar-content">
         <div className="main-icon">
-          <img src={Logo} alt="Vyapar Logo" />
+          {/* <img src={Logo} alt="Vyapar Logo" /> */}
         </div>
         <div className="buttons">
           <NavLink to="/home" className="sidebar-button">
