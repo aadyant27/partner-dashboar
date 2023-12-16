@@ -1,0 +1,88 @@
+/*************************/
+/* BELOW 1408px/88rem */
+/*************************/
+@media (max-width: 88em) {
+  .poster {
+    width: 26em;
+  }
+  .card {
+    width: 15em;
+  }
+}
+
+/*************************/
+/* BELOW 1344px/84rem */
+/*************************/
+@media (max-width: 84em) {
+  .card {
+    width: 14em;
+  }
+  .card-title-value {
+    font-size: 17px;
+  }
+  .card-icon img {
+    max-width: 90%;
+  }
+  .poster {
+    width: 22.5em;
+  }
+}
+
+/*************************/
+/* BELOW 1280px/80rem */
+/*************************/
+@media (max-width: 84em) {
+  .card {
+    width: 13em;
+  }
+  .card-title-value {
+    font-size: 15px;
+  }
+  .card-icon img {
+    max-width: 85%;
+  }
+  .content-main {
+    justify-content: center;
+  }
+  .graph {
+    width: 38em;
+    padding: 30px 0;
+  }
+  .poster {
+    width: 38em;
+  }
+  /* .poster {
+      width: 22.5em;
+    } */
+}
+/*************************/
+/* BELOW 76rem */
+/*************************/
+@media (max-width: 76rem) {
+  .cards {
+    justify-content: center;
+  }
+  .content-main {
+    justify-content: center;
+  }
+  .graph {
+    width: 38em;
+    padding: 30px 0;
+  }
+  .poster {
+    width: 38em;
+  }
+}
+
+/* END PIXEL BEFORE MOBILE DESIGN == 1045px/70em */
+@media (max-width: 65em) {
+  .sidebar {
+    display: none;
+  }
+  .main-content {
+    margin-left: 40px;
+  }
+  .hamburger-responsive {
+    display: block;
+  }
+}
